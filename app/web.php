@@ -11,7 +11,7 @@ $app = require __DIR__.'/bootstrap.php';
 //Appel le fichier twig en fonction de la page
 $app->get('/', function () use ($app) {
 
-    return $app['twig']->render('template/index.twig', array(
+    return $app['twig']->render('template/site/index.twig', array(
         
     ));
 
